@@ -143,13 +143,15 @@ header .contact .phone {
 }
 .social-media a:hover{
   transform: scale(1.2) rotateY(360deg);
-  background-color:#f32c2c ;
-  border-radius: 1rem dotted white;
+  background-image: linear-gradient(rgba(206, 197, 197, 0.918), rgba(204, 26, 26, 0.74));
   }
 .social-media li {
   margin-right: 0.7rem;
 }
-.carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+.carousel-control-next:focus,
+ .carousel-control-next:hover,
+  .carousel-control-prev:focus,
+   .carousel-control-prev:hover {
   color: #dc1616 !important;
   text-decoration: none;
   outline: 0;
@@ -220,6 +222,7 @@ footer li:nth-child(1) {
 footer li:nth-child(1):hover {
   z-index: 30;
   transform: rotate(0deg) scale(1.1);
+  background-image: linear-gradient(rgb(17, 16, 16), rgba(223, 11, 11, 0.575));
 }
 
 footer li:nth-child(2) {
@@ -230,6 +233,8 @@ footer li:nth-child(2) {
 footer li:nth-child(2):hover {
   z-index: 30;
   transform: translateX(-30%) rotate(0deg) scale(1.1);
+  background-image: linear-gradient(rgb(17, 16, 16), rgba(223, 11, 11, 0.575));
+
 }
 
 footer li:nth-child(3) {
@@ -240,6 +245,8 @@ footer li:nth-child(3) {
 footer li:nth-child(3):hover {
   z-index: 30;
   transform: translateX(-60%) rotate(0deg) scale(1.1);
+  background-image: linear-gradient(rgb(17, 16, 16), rgba(223, 11, 11, 0.575));
+
 }
 /* Elemanları içi içe geçirmek ve kendi etrafında 5 derece döndürmek için */
 
